@@ -1,0 +1,73 @@
+body{
+	background: black;
+}
+
+/*Grid Board Image and Area*/
+div#board{
+	position: relative;
+	width: 1024px;
+	height: 863px;
+	margin: auto;
+	background: url("file:///C:/Users/vcming/Desktop/Front-End/Lesson9/BattleShip/img/board.jpg") no-repeat;
+}
+
+/*Message*/
+h1#messageArea{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgb(83,175,19);
+}
+
+/*Table ID*/
+table{
+	position: absolute;
+	left: 173px;
+	top: 98px;
+	border-spacing: 0;
+}
+
+tr{
+	height: 97px;
+}
+td{
+	width: 96px;
+	height: 94px;
+}
+
+/*Form*/
+form{
+	position: absolute;
+	top: 25px;
+	right: 0px;
+	padding: 10px;
+	background-color: rgb(83,175,19);
+	z-index: 100;
+}
+
+form input{
+	background-color: rgb(152,207,113);
+	border-color: rgb(83,175,19);
+	font-size: 1em;
+}
+
+.form-control{
+	width: 70% !important;
+	margin-right: 5%
+}
+
+/*Hit & Miss*/
+.hit {
+	background: url("file:///C:/Users/vcming/Desktop/Front-End/Lesson9/BattleShip/img/ship.png") no-repeat center center;
+}
+
+.miss {
+	background: url("file:///C:/Users/vcming/Desktop/Front-End/Lesson9/BattleShip/img/miss.png") no-repeat center center;
+}
+
+
+
+
+
+
+
