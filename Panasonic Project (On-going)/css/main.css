@@ -1,0 +1,316 @@
+/*Top Navigation Bar*/
+.header{
+    margin: 0 auto;
+    width: 960px;
+    height: 110px;
+}
+
+.logo img{
+    padding: 32px 22px 30px 20px;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    float: left;
+}
+
+.left{
+    float: left;
+    height: 100px;
+    width: 220px;
+}
+
+.top{
+    float: right;
+    height: 49px;
+    width: 739px;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+#top1{
+    width: 500px;
+    height: 49px;
+
+}
+#top2{
+
+}
+#top3{
+
+}
+
+.bottom{
+    float: right;
+    height: 49px;
+    width: 739px;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+ul{
+    position: relative;
+    left: -33px;
+    list-style: none;
+    padding: none;
+}
+li{
+    float: left;
+    padding: 0 12px;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #979797;
+    font-weight: bold;
+}
+
+.bottom ul a:hover {
+    color: black;
+}
+
+#top1{
+    float: left;
+}
+
+#top1left a{
+    color: #0364B3;
+    font-size: 11px;
+}
+
+#top1left {
+    margin-right: 20px;
+    float: left;
+}
+
+#top1right a{
+    position: relative;
+    top: 16px;
+    color:#979797;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+#top1right{
+    float: right;
+    border-right: solid 1px #CCCCCC;
+    height: 49px;
+    margin-top: 0px;
+
+}
+
+#updates{
+    margin: 0 auto;
+    width: 960px;
+    height: 33px;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+#message{
+    text-align: center;
+    color: #0364B3;
+    font-weight: 600;
+    font-size: 20px;
+} 
+
+/*Banners*/
+.auto960{
+    margin: 0 auto;
+    width: 960px;
+    height: 754px;
+}
+
+.auto960 img{
+    margin: 0 auto;
+}
+
+.auto9601{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.vheight{
+    height: 369px;
+}
+
+#banner2{
+    position: relative;
+    top: -5px;
+}
+
+
+/*Video*/
+.videoleft{
+    float: left;
+    position: relative;
+    top: -12px;
+}
+.videoright{
+    height: 381px;
+    width: 356px;
+    background-color: black;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+    top: -12px;
+}
+.videoright h6,h4{
+    position: relative;
+    top: 100px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font
+}
+.videoright button{
+    position: relative;
+    top: 100px;
+    left: 130px;
+}
+
+/*Explore Panasonic*/
+.exheight{
+    height: 120px;
+    background-color: #F8F8F8; 
+    position: relative;
+    top: -22px;
+}
+.exheight h1{
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: 35px;
+}
+/*Selection*/
+.selheight{
+    position: relative;
+    top: -22px;
+    height: 200px;
+}
+.position{
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+.selword{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+#selection1{
+    width: 160px;
+    height: 200px;
+    background-color: #F8F8F8;
+    border-top: solid #30A2CD 7px;
+    float: left;
+    color: #363636;
+}
+#selection1:hover{
+    background-color: #30A2CD;
+    color: white;
+}
+#selection2{
+    width: 160px;
+    height: 200px;
+    background-color: #F8F8F8;
+    border-top: solid #EA118D 7px;
+    float: left;
+}
+#selection3{
+    width: 160px;
+    height: 200px;
+    background-color: #F8F8F8;
+    border-top: solid #7BB138 7px;
+    float: left;
+}
+#selection4{
+    width: 160px;
+    height: 200px;
+    background-color: #F8F8F8;
+    border-top: solid #1C449C 7px;
+    float: left;
+}
+#selection5{
+    width: 160px;
+    height: 200px;
+    background-color: #F8F8F8;
+    border-top: solid #E21F26 7px;
+    float: left;
+}
+#selection6{
+    width: 160px;
+    height: 200px;
+    background-color: #F8F8F8;
+    border-top: solid #F37121 7px;
+    float: left;
+}
+
+/*Highlights*/
+.highheight{
+    height: 100px;
+    position: relative;
+    top: 0px;
+}
+.highheight h1{
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+}
+
+/*Highlight items*/
+.itemimg{
+    height: 200px;
+    width: 220px;
+}
+.itemheight{
+    height: 400px;
+}
+.itemname {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.stock {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #515151;
+}
+.price {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#item1{
+    width: 220px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+}
+#item2{
+    width: 220px;
+    height: 400px;
+    float: left;
+        margin-right: 20px;
+}
+#item3{
+    width: 220px;
+    height: 400px;
+    float: left;
+        margin-right: 20px;
+}
+#item4{
+    width: 220px;
+    height: 400px;
+    float: left;
+        margin-right: 20px;
+}
+
+/*Shop new Button*/
+.newheight{
+    height: 50px;
+}
+.newheight button{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
